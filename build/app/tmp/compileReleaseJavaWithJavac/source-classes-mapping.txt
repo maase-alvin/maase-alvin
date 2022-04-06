@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+net/appdevs/shetransacts/BuildConfig.java
+ net.appdevs.shetransacts.BuildConfig

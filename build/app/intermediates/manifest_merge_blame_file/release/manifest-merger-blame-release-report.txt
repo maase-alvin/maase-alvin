@@ -1,0 +1,208 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.appdevs.shetransacts"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:6:5-75
+13-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:6:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+14-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:7:5-75
+14-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:7:22-73
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:8:5-81
+15-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:9:5-80
+16-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:9:22-77
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:10:5-65
+17-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:10:22-62
+18
+19    <uses-feature android:name="android.hardware.camera" />
+19-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:11:5-60
+19-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:11:19-57
+20
+21    <queries>
+21-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:13:5-34:15
+22
+23        <!-- If your app opens https URLs -->
+24        <intent>
+24-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:15:9-18:18
+25            <action android:name="android.intent.action.VIEW" />
+25-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:16:13-65
+25-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:16:21-62
+26
+27            <data android:scheme="https" />
+27-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:17:13-44
+27-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:17:19-41
+28        </intent>
+29        <!-- If your app makes calls -->
+30        <intent>
+30-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:20:9-23:18
+31            <action android:name="android.intent.action.DIAL" />
+31-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:21:13-65
+31-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:21:21-62
+32
+33            <data android:scheme="tel" />
+33-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:17:13-44
+33-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:17:19-41
+34        </intent>
+35        <!-- If your sends SMS messages -->
+36        <intent>
+36-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:25:9-28:18
+37            <action android:name="android.intent.action.SENDTO" />
+37-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:26:13-67
+37-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:26:21-64
+38
+39            <data android:scheme="smsto" />
+39-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:17:13-44
+39-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:17:19-41
+40        </intent>
+41        <!-- If your app sends emails -->
+42        <intent>
+42-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:30:9-33:18
+43            <action android:name="android.intent.action.SEND" />
+43-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:31:13-65
+43-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:31:21-62
+44
+45            <data android:mimeType="*/*" />
+45-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:17:13-44
+45-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:32:19-41
+46        </intent>
+47    </queries>
+48
+49    <application
+50        android:name="android.app.Application"
+50-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:39:9-42
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.6.0] C:\Users\Alvin\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
+52        android:icon="@drawable/icons"
+52-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:40:9-39
+53        android:label="SheTransacts" >
+53-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:38:9-37
+54        <activity
+54-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:41:9-61:20
+55            android:name="net.appdevs.shetransacts.MainActivity"
+55-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:42:13-41
+56            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+56-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:46:13-163
+57            android:exported="true"
+57-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:43:13-36
+58            android:hardwareAccelerated="true"
+58-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:47:13-47
+59            android:launchMode="singleTop"
+59-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:44:13-43
+60            android:theme="@style/LaunchTheme"
+60-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:45:13-47
+61            android:windowSoftInputMode="adjustResize" >
+61-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:48:13-55
+62
+63            <!--
+64                 Specifies an Android theme to apply to this Activity as soon as
+65                 the Android process has started. This theme is visible to the user
+66                 while the Flutter UI initializes. After that, this theme continues
+67                 to determine the Window background behind the Flutter UI.
+68            -->
+69            <meta-data
+69-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:53:13-56:17
+70                android:name="io.flutter.embedding.android.NormalTheme"
+70-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:54:15-70
+71                android:resource="@style/NormalTheme" />
+71-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:55:15-52
+72
+73            <intent-filter>
+73-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:57:13-60:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:58:17-68
+74-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:58:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:59:17-76
+76-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:59:27-74
+77            </intent-filter>
+78        </activity>
+79        <!--
+80             Don't delete the meta-data below.
+81             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+82        -->
+83        <meta-data
+83-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:64:9-66:33
+84            android:name="flutterEmbedding"
+84-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:65:13-44
+85            android:value="2" />
+85-->C:\Users\Alvin\AndroidStudioProjects\SheTransacts\android\app\src\main\AndroidManifest.xml:66:13-30
+86
+87        <provider
+87-->[:image_picker] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+88            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+88-->[:image_picker] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:9:13-82
+89            android:authorities="net.appdevs.shetransacts.flutter.image_provider"
+89-->[:image_picker] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+90            android:exported="false"
+90-->[:image_picker] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+91            android:grantUriPermissions="true" >
+91-->[:image_picker] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+92            <meta-data
+92-->[:image_picker] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+93                android:name="android.support.FILE_PROVIDER_PATHS"
+93-->[:image_picker] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+94                android:resource="@xml/flutter_image_picker_file_paths" />
+94-->[:image_picker] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+95        </provider>
+96
+97        <activity
+97-->[:url_launcher_android] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+98            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+98-->[:url_launcher_android] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+99            android:exported="false"
+99-->[:url_launcher_android] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+100            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+100-->[:url_launcher_android] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+101
+102        <provider
+102-->[:share] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\share\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+103            android:name="io.flutter.plugins.share.ShareFileProvider"
+103-->[:share] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\share\intermediates\library_manifest\release\AndroidManifest.xml:9:13-70
+104            android:authorities="net.appdevs.shetransacts.flutter.share_provider"
+104-->[:share] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\share\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+105            android:exported="false"
+105-->[:share] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\share\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+106            android:grantUriPermissions="true" >
+106-->[:share] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\share\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+107            <meta-data
+107-->[:image_picker] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+108                android:name="android.support.FILE_PROVIDER_PATHS"
+108-->[:image_picker] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+109                android:resource="@xml/flutter_share_file_paths" />
+109-->[:image_picker] C:\Users\Alvin\AndroidStudioProjects\SheTransacts\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+110        </provider>
+111
+112        <uses-library
+112-->[androidx.window:window:1.0.0-beta04] C:\Users\Alvin\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+113            android:name="androidx.window.extensions"
+113-->[androidx.window:window:1.0.0-beta04] C:\Users\Alvin\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+114            android:required="false" />
+114-->[androidx.window:window:1.0.0-beta04] C:\Users\Alvin\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+115        <uses-library
+115-->[androidx.window:window:1.0.0-beta04] C:\Users\Alvin\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+116            android:name="androidx.window.sidecar"
+116-->[androidx.window:window:1.0.0-beta04] C:\Users\Alvin\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+117            android:required="false" />
+117-->[androidx.window:window:1.0.0-beta04] C:\Users\Alvin\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+118    </application>
+119
+120</manifest>

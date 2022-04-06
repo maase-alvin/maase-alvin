@@ -1,0 +1,4 @@
+#Tue Apr 05 17:07:29 EAT 2022
+base.0=C\:\\Users\\Alvin\\AndroidStudioProjects\\SheTransacts\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
