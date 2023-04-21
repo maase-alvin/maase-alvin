@@ -11,7 +11,8 @@ As a Software Engineer and AI Specialist, I am passionate about developing cutti
 *   ✉️  You can contact me at [maasealvin@gmail.com](mailto:maasealvin@gmail.com)
 *   🧠  I'm learning NodeJs
 *   🤝  I'm open to collaborating on ML and DL Projects
-*   ⚡  I am a really motivated person.### Skills 
+*   ⚡  I am a really motivated person.
+<h1>Skills</h1>
 <p align="left">
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
 <a href="https://www.php.net/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg" width="36" height="36" alt="PHP" /></a>
@@ -39,15 +40,11 @@ As a Software Engineer and AI Specialist, I am passionate about developing cutti
 <a href="https://www.adobe.com/uk/products/premiere.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/premierepro-colored.svg" width="36" height="36" alt="Premiere Pro" /></a>
 <a href="https://www.adobe.com/uk/products/aftereffects.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aftereffects-colored.svg" width="36" height="36" alt="After Effects" /></a>
 </p>
-### Socials
-                  
-                  
+<h1>Socials</h1>
 <p align="left">
-                          
-                      <a href="https://www.github.com/maase-alvin" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a>
-                          
-                      <a href="https://www.linkedin.com/in/alvin-m-b3b968180" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>### Badges<b>My GitHub Stats</b><a
-                      href="http://www.github.com/maase-alvin"><img src="https://github-readme-stats.vercel.app/api?username=maase-alvin&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="maase-alvin's GitHub stats" /></a><a
-                      href="http://www.github.com/maase-alvin"><img
-                  src="https://github-readme-streak-stats.herokuapp.com/?user=maase-alvin&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a><a
-                      href="http://www.github.com/maase-alvin"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=maase-alvin&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a><a href="https://github.com/maase-alvin" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maase-alvin&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+<a href="https://www.github.com/maase-alvin" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a>
+<a href="https://www.linkedin.com/in/alvin-m-b3b968180/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>### Badges<b>My GitHub Stats</b>
+<a href="http://www.github.com/maase-alvin"><img src="https://github-readme-stats.vercel.app/api?username=maase-alvin&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="maase-alvin's GitHub stats" /></a>
+<a href="http://www.github.com/maase-alvin"><img src="https://github-readme-streak-stats.herokuapp.com/?user=maase alvin&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
+<a href="http://www.github.com/maase-alvin"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=maase-alvin&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a><a href="https://github.com/maase-alvin" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maase-alvin&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+</p>
