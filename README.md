@@ -1,7 +1,7 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Alvin Maase
 ===================================================================================================================================
 
-Full Stack Engineer || ML and DL Engineer
+Software Engineer || ML and DL Engineer
 -----------------------------------------
 
 As a Software Engineer and AI Specialist, I am passionate about developing cutting-edge solutions that leverage the power of technology to drive innovation and transform industries. With a focus on delivering results-driven solutions, I excel at collaborating with cross-functional teams to identify key business needs and translate them into robust, scalable software solutions that exceed expectations. Through my expertise in AI and machine learning, I strive to empower businesses to unlock new opportunities and insights, driving growth and success in today's rapidly evolving digital landscape.
